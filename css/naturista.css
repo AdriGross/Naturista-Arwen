@@ -92,6 +92,10 @@ footer{
     margin: 0 auto;
 }
 
+h4{
+  color:rgb(9, 110, 9) ;
+}
+
 /* -------SECCION NOSOTROS-------- */
 
 @font-face {
@@ -214,3 +218,191 @@ footer{
     -o-transform: translate(0px, 0px) scale(2);
     -ms-transform: translate(0px, 0px) scale(2);
   }
+
+  /* SECCION CONTACTO */
+
+  /* body{
+    height: 100%; 
+    font-family: 'Noto Sans', sans-serif;
+    /* background-color: #ab4493;  
+  } */
+
+  .contact_form{  
+    width: 460px; 
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;  
+    padding-top: 30px;
+    padding-bottom: 20px;  
+    background-color: #fbfbfb; 
+    padding-left: 30px; 
+  }
+  
+  
+  input{
+    background-color: #fbfbfb; 
+    width: 408px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: rgb(9, 110, 9); 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+  }
+  
+  
+  textarea{
+    background-color: #fbfbfb; 
+    width: 405px; 
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: rgb(9, 110, 9); 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+  }
+  
+  
+  label{
+    display: block; 
+    float: center;  
+  }
+  
+  
+  button{
+    height: 45px; 
+    padding-left: 5px;
+    padding-right: 5px;   
+    margin-bottom: 20px; 
+    margin-top: 10px;   
+    text-transform: uppercase;
+    background-color: rgb(9, 110, 9); 
+    border-color: rgb(9, 110, 9); 
+    border-style: solid; 
+    border-radius: 10px;  
+    width: 420px;   
+    cursor: pointer;
+  }
+  
+  
+  button p{
+    color: #fff; 
+  }
+  
+  
+  span{
+    color: rgb(9, 110, 9); 
+  }
+  
+  
+  .aviso{
+    font-size: 13px;  
+    color: #0e0e0e;  
+  }
+  
+  
+  h1{
+    font-size: 39px;  
+    text-align: letf; 
+    padding-bottom: 20px; 
+    color: rgb(9, 110, 9);
+  }
+  
+  
+  h3{
+    font-size: 16px; 
+    padding-bottom: 30px;
+    color: #0e0e0e;   
+  }
+  
+  
+  p{
+    font-size: 14px; 
+    color: #0e0e0e; 
+  }
+  
+  
+  ::-webkit-input-placeholder {
+   color: #a8a8a8;
+  }
+  
+  
+  ::-webkit-textarea-placeholder {
+   color: #a8a8a8;
+  }
+  
+  
+  .formulario input:focus{
+    outline:0;
+    border: 1px solid #97d848;
+  }
+  
+  
+  .formulario textarea:focus{
+    outline:0;
+    border: 1px solid #97d848;
+  }
+
+  .contacto-redes {
+    width: 50%;
+    float: left;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .contacto-redes  a{
+      position: relative;
+  }
+
+  .lista-redes{
+      display: grid;
+      grid-template-columns: repeat(4, 1fr) ;
+      grid-auto-rows: 50px;
+      list-style-type: none;
+      margin-top: 100px;
+      margin-bottom: 100px;
+  }
+
+i{
+    width: 300px; 
+    font-size: 50px;
+  }
+
+i:hover{
+  transform: translateY(5px) scale(1.10);
+
+}
+
+.fa-whatsapp{
+  color:green;
+}
+
+.fa-facebook{
+  color: rgb(82, 82, 224);
+}
+
+.fa-instagram{
+  color: rgb(223, 51, 79);
+}
+
+/* SECCION SERVICIOS */
+
+.yoga img{
+  width: 320px;
+  height: 200px;
+}
+
+.ayurveda img{
+  width: 320px;
+  height: 200px;
+}
+
+.reiki img{
+  width: 320px;
+  height: 200px;
+}
